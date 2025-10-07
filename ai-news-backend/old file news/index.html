@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI News Reader Login</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .hidden { display: none; }
+    input, select { margin: 8px 0; padding: 6px; width: 200px; }
+    button { padding: 8px 12px; margin-top: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>🔐 AI News Reader</h1>
+
+  <!-- Login -->
+  <div id="login">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Enter email" />
+    <button onclick="sendOTP()">Send OTP</button>
+  </div>
+
+  <!-- OTP -->
+  <div id="otpSection" class="hidden">
+    <h2>Enter OTP</h2>
+    <input type="text" id="otp" placeholder="Enter OTP" />
+    <button onclick="verifyOTP()">Verify OTP</button>
+  </div>
+
+  <!-- Profile -->
+  <div id="profileSection" class="hidden">
+    <h2>Setup Profile</h2>
+    <input type="text" id="name" placeholder="Name" /><br/>
+    <input type="text" id="profession" placeholder="Profession" /><br/>
+    <input type="text" id="gender" placeholder="Gender" /><br/>
+    <input type="number" id="age" placeholder="Age" /><br/>
+    <label>Choose Categories:</label><br/>
+    <select id="preferences" multiple>
+      <option value="business">Business</option>
+      <option value="entertainment">Entertainment</option>
+      <option value="general">General</option>
+      <option value="health">Health</option>
+      <option value="science">Science</option>
+      <option value="sports">Sports</option>
+      <option value="technology">Technology</option>
+    </select><br/>
+    <button onclick="saveProfile()">Save Profile</button>
+  </div>
+
+  <!-- News -->
+  <div id="newsSection" class="hidden">
+    <h2>Your Personalized News</h2>
+    <div id="newsContainer"></div>
+  </div>
+
+  <script>
+    const API_URL = "http://localhost:5000";
+
+    async function sendOTP() {
+      const email = document.getElementById("email").value;
+      await fetch(`${API_URL}/login`, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email })
+      });
+      document.getElementById("otpSection").classList.remove("hidden");
+    }
+
+    async function verifyOTP() {
+      const otp = document.getElementById("otp").value;
+      const res = await fetch(`${API_URL}/verify-otp`, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ otp })
+      });
+      const data = await res.json();
+      if (data.success) {
+        document.getElementById("profileSection").classList.remove("hidden");
+      } else {
+        alert("Invalid OTP!");
+      }
+    }
+
+    async function saveProfile() {
+      const name = document.getElementById("name").value;
+      const profession = document.getElementById("profession").value;
+      const gender = document.getElementById("gender").value;
+      const age = document.getElementById("age").value;
+      const preferences = Array.from(document.getElementById("preferences").selectedOptions).map(o => o.value);
+
+      await fetch(`${API_URL}/profile`, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, profession, gender, age, preferences })
+      });
+
+      // Fetch personalized news
+      const newsRes = await fetch(`${API_URL}/news`);
+      const newsData = await newsRes.json();
+
+      document.getElementById("newsSection").classList.remove("hidden");
+      const container = document.getElementById("newsContainer");
+      container.innerHTML = "";
+
+      newsData.news.forEach(section => {
+        let html = `<h3>${section.category.toUpperCase()}</h3><ul>`;
+        section.articles.forEach(a => {
+          html += `<li><a href="${a.url}" target="_blank">${a.title}</a></li>`;
+        });
+        html += "</ul>";
+        container.innerHTML += html;
+      });
+    }
+  </script>
+</body>
+</html>

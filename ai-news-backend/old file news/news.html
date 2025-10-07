@@ -1,0 +1,598 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>AI News Reader</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f4; }
+      h1 { text-align: center; margin-bottom: 40px; }
+      h2 { margin-top: 40px; color: #333; border-left: 5px solid #007BFF; padding-left: 10px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+      .card { background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden; display: flex; flex-direction: column; }
+      .card img { width: 100%; height: 180px; object-fit: cover; }
+      .card-body { padding: 15px; flex: 1; display: flex; flex-direction: column; }
+      .card h3 { font-size: 18px; margin: 0 0 10px 0; color: #007BFF; }
+      .card p { font-size: 14px; color: #555; flex-grow: 1; }
+      .card small { display: block; margin-top: 10px; color: #999; font-size: 12px; }
+      .card a { text-decoration: none; color: white; background: #007BFF; padding: 8px 12px; border-radius: 5px; text-align: center; margin-top: 10px; }
+      .card a:hover { background: #0056b3; }
+    </style>
+  </head>
+  <body>
+    <h1>📰 AI Featured News WebApp</h1>
+  <h2>BUSINESS</h2><div class="grid">
+        <div class="card">
+          <img src="https://dims.apnews.com/dims4/default/3d193f3/2147483647/strip/true/crop/5074x2854+0+264/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3c%2Fa2%2F6cbac8a63c935b43f94a63b38688%2F45b89b9a19fd4179ac342d5574533575" alt="News Image">
+          <div class="card-body">
+            <h3>Cockpit recorders studied in ‘low-speed collision’ of Delta jets on LaGuardia taxiway - AP News</h3>
+            <p>Officials say two Delta Air Lines regional jets collided on the taxiway at LaGuardia Airport...</p>
+            <small>Source: Associated Press</small>
+            <a href="https://apnews.com/article/delta-planes-collision-new-york-laguardia-6ccff3aabeca787c31f1f6746ad771fd" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://image.cnbcfm.com/api/v1/image/108205757-1759244566495-Traders-Photo-20250930-KK-PRESS-023.jpg?v=1759244708&w=1920&h=1080" alt="News Image">
+          <div class="card-body">
+            <h3>Stocks close at record highs as investors shake off shutdown concerns - CNBC</h3>
+            <p>Major U.S. stock indexes closed in the green on Wednesday on hopes that the funding...</p>
+            <small>Source: CNBC</small>
+            <a href="https://www.cnbc.com/2025/10/01/stock-market-today-live-updates.html" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.investors.com/wp-content/uploads/2017/10/stock-bitcoin-02-adobe.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Bitcoin Hits 2-Month High Above $120k, This Crypto Stock Soars 150% - Investor's Business Daily</h3>
+            <p>Bitcoin, cryptocurrency prices continue to rally amid government shutdown. Bakkt vaults on transformation, streamlining efforts....</p>
+            <small>Source: Investor's Business Daily</small>
+            <a href="https://www.investors.com/news/bitcoin-price-cryptocurrency-rally-bakkt-holdings-150-gain-bkkt-stock/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://i.abcnewsfe.com/a/e1561e23-a849-476a-a3b4-366656f65797/wirestory_49de41ba42bdfe572be3b86caeeb1fcb_16x9.jpg?w=1600" alt="News Image">
+          <div class="card-body">
+            <h3>Average long-term US mortgage rate ticks up for second straight week, to 6.34% - ABC News - Breaking News, Latest News and Videos</h3>
+            <p>The average rate on a 30-year U.S. mortgage ticked up for the second straight week...</p>
+            <small>Source: ABC News</small>
+            <a href="https://abcnews.go.com/Business/wireStory/average-long-term-us-mortgage-rate-ticks-straight-126156158" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=No+Image" alt="News Image">
+          <div class="card-body">
+            <h3>Stock Market Today: Nasdaq Edges Higher Up as Government Shutdown Enters Second Day — Live Updates - The Wall Street Journal</h3>
+            <p></p>
+            <small>Source: The Wall Street Journal</small>
+            <a href="https://www.wsj.com/livecoverage/stock-market-today-government-shutdown-10-02-2025" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://image.cnbcfm.com/api/v1/image/108201303-1758295013956-gettyimages-2235610710-INTEL_NVIDIA.jpeg?v=1759422910&w=1920&h=1080" alt="News Image">
+          <div class="card-body">
+            <h3>Intel stock is up 50% over the last month, putting U.S. stake at $16 billion - CNBC</h3>
+            <p>U.S. chipmaker Intel's shares climbed 3% Thursday, putting the monthly gain over 50%....</p>
+            <small>Source: CNBC</small>
+            <a href="https://www.cnbc.com/2025/10/02/intel-stock-us-trump-stake.html" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://blog.tipranks.com/wp-content/uploads/2025/10/shutterstock_2572730587-750x406.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Meta Launches New Business AI for Third-Party Websites - TipRanks</h3>
+            <p>Tech giant Meta Platforms ($META) is expanding beyond online advertising by introducing new AI tools...</p>
+            <small>Source: Tipranks.com</small>
+            <a href="https://www.tipranks.com/news/meta-launches-new-business-ai-for-third-party-websites" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://media.cnn.com/api/v1/images/stellar/prod/shutterstock-editorial-15471257d.jpg?c=16x9&q=w_800,c_fill" alt="News Image">
+          <div class="card-body">
+            <h3>Elizabeth Warren calls for Trump to release the jobs report despite shutdown - CNN</h3>
+            <p>Democratic Sen. Elizabeth Warren is calling on the Trump administration to release the September jobs...</p>
+            <small>Source: CNN</small>
+            <a href="https://www.cnn.com/2025/10/02/economy/jobs-report-elizabeth-warren-trump-shutdown" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div><h2>ENTERTAINMENT</h2><div class="grid">
+        <div class="card">
+          <img src="https://www.hollywoodreporter.com/wp-content/uploads/2025/10/Louis-Tomlinson-Zayn-Malik-Split-Getty-H-2025.jpg?w=1296&h=730&crop=1" alt="News Image">
+          <div class="card-body">
+            <h3>One Direction Stars Louis Tomlinson, Zayn Malik Have Reunited for Netflix Road Trip Series - The Hollywood Reporter</h3>
+            <p>The documentary follows the tragic death of former Brit boy band member Liam Payne....</p>
+            <small>Source: Hollywood Reporter</small>
+            <a href="http://www.hollywoodreporter.com/tv/tv-news/louis-tomlinson-zayn-malik-netflix-docuseries-1236391901/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=No+Image" alt="News Image">
+          <div class="card-body">
+            <h3>Sean Combs' ex-girlfriend says she was never sex trafficked, was 'pressured to feel like a victim' - ABC News - Breaking News, Latest News and Videos</h3>
+            <p></p>
+            <small>Source: ABC News</small>
+            <a href="https://abcnews.go.com/US/sean-combs-girlfriend-sex-trafficked-pressured-feel-victim/story?id\\u003d126155000" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://pagesix.com/wp-content/uploads/sites/3/2025/10/112657232.jpg?quality=75&strip=all&w=1024" alt="News Image">
+          <div class="card-body">
+            <h3>Kylie Jenner shines in showgirl-worthy Schiaparelli dress at Paris Fashion Week - Page Six</h3>
+            <p>With all-over silver beading, a fringed plunging neckline and an asymmetric hemline, it’s no doubt...</p>
+            <small>Source: Page Six</small>
+            <a href="https://pagesix.com/2025/10/02/style/kylie-jenner-wears-showgirl-inspired-beaded-dress-from-schiaparelli-for-paris-fashion-week/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://nbcsports.brightspotcdn.com/dims4/default/8d18f8b/2147483647/strip/true/crop/800x450+0+42/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F3f%2Fe4%2Fa650f12644f9a54ba9972dc043cd%2Fhttps-api-imagn.com%2Frest%2Fdownload%2FimageID%3D27064841" alt="News Image">
+          <div class="card-body">
+            <h3>DHS intends to deploy ICE agents at the Super Bowl - NBC Sports</h3>
+            <p>The NFL's selection of Bad Bunny to perform at the Super Bowl LX halftime show...</p>
+            <small>Source: NBCSports.com</small>
+            <a href="https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dhs-intends-to-deploy-ice-agents-at-the-super-bowl" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BUPQ35XIFPKAND7K7VU45MWHPE.jpg&w=1440" alt="News Image">
+          <div class="card-body">
+            <h3>Jane Fonda relaunches McCarthy-era committee to defend free speech - The Washington Post</h3>
+            <p>The actor said the Committee for the First Amendment — first backed by her father...</p>
+            <small>Source: The Washington Post</small>
+            <a href="https://www.washingtonpost.com/style/2025/10/02/trump-jane-fonda-mccarthy-free-speech/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://img.pastemagazine.com/wp-content/avuploads/2025/03/20121238/MixCollage-20-Mar-2025-12-12-PM-3097.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Paul Thomas Anderson rockets Thomas Pynchon into the present - AV Club</h3>
+            <p>One Battle After Another and Paul Thomas Anderson smooth Thomas Pynchon's sensibilities into a big-budget...</p>
+            <small>Source: The A.V. Club</small>
+            <a href="https://www.avclub.com/one-battle-after-another-paul-thomas-anderson-thomas-pynchon-vineland-adaptation" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://images.toofab.com/image/b0/16by9/2025/10/02/b0f564bf1d0643d6bb308b8e5cdf3ce9_xl.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Lionel Richie Details 'Massive Confrontation' Between First and Second Wives for First Time - TooFab</h3>
+            <p>Lionel Richie is speaking out on a fight that ended his marriage to first wife...</p>
+            <small>Source: TooFab</small>
+            <a href="https://toofab.com/2025/10/02/lionel-richie-wives-fight/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://pagesix.com/wp-content/uploads/sites/3/2025/10/taylor-swift-gucci-looks.jpg?quality=75&strip=all&w=1024" alt="News Image">
+          <div class="card-body">
+            <h3>Taylor Swift’s Gucci outfits were a ‘Life of a Showgirl’ Easter egg all along - Page Six</h3>
+            <p>The Grammy winner has been spotted wearing the Italian luxury label both on red carpets...</p>
+            <small>Source: Page Six</small>
+            <a href="https://pagesix.com/2025/10/02/style/taylor-swift-gucci-outfits-were-a-life-of-a-showgirl-easter-egg-all-along/" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div><h2>GENERAL</h2><div class="grid">
+        <div class="card">
+          <img src="https://dims.apnews.com/dims4/default/8c2ba95/2147483647/strip/true/crop/4500x2531+0+234/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd1%2F35%2Ff05a294a6cff19c12cfbd1a18189%2F2c5bb9fb6fe347fe9fc57df57e8eca14" alt="News Image">
+          <div class="card-body">
+            <h3>Trump asks 9 colleges to commit to his political agenda and get favorable access to federal money - AP News</h3>
+            <p>The White House is asking nine major universities to commit to President Donald Trump’s political...</p>
+            <small>Source: Associated Press</small>
+            <a href="https://apnews.com/article/trump-political-agenda-colleges-federal-money-756407729a3b16c7bb51564d5056084c" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2GL6CGJ2H276MXKU5XT6XH6IYE.jpg&w=1440" alt="News Image">
+          <div class="card-body">
+            <h3>Trump administration approval of new abortion drug infuriates the right - The Washington Post</h3>
+            <p>The FDA has little latitude to reject generic versions of approved drugs, but that hasn’t...</p>
+            <small>Source: The Washington Post</small>
+            <a href="https://www.washingtonpost.com/politics/2025/10/02/trump-fda-abortion-pill/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=No+Image" alt="News Image">
+          <div class="card-body">
+            <h3>Former Des Moines superintendent who was detained by ICE federally charged - ABC News - Breaking News, Latest News and Videos</h3>
+            <p></p>
+            <small>Source: ABC News</small>
+            <a href="https://abcnews.go.com/US/former-des-moines-superintendent-detained-ice-federally-charged/story?id\\u003d126156263" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://media.cnn.com/api/v1/images/stellar/prod/003-gettyimages-2203639210.jpg?c=16x9&q=w_800,c_fill" alt="News Image">
+          <div class="card-body">
+            <h3>Out-of-office messages blaming Democrats for shutdown sent on behalf of some federal workers without their consent - CNN</h3>
+            <p>The emails resemble messages that have appeared on several agency webpages amid the shutdown and...</p>
+            <small>Source: CNN</small>
+            <a href="https://www.cnn.com/2025/10/02/politics/federal-workers-government-shutdown-emails-partisan" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://ichef.bbci.co.uk/news/1024/branded_news/64a4/live/ed1ff7b0-9fa9-11f0-bcf9-91615bda46dc.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Donations pour in for family of gunman in Michigan church attack - BBC</h3>
+            <p>Thomas Sander was killed by police in the arson and shooting attack on the church...</p>
+            <small>Source: BBC News</small>
+            <a href="https://www.bbc.com/news/articles/c5ygz51lzdro" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=No+Image" alt="News Image">
+          <div class="card-body">
+            <h3>Sean Combs' ex-girlfriend says she was never sex trafficked, was 'pressured to feel like a victim' - ABC News - Breaking News, Latest News and Videos</h3>
+            <p></p>
+            <small>Source: ABC News</small>
+            <a href="https://abcnews.go.com/US/sean-combs-girlfriend-sex-trafficked-pressured-feel-victim/story?id\\u003d126155000" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div><h2>HEALTH</h2><div class="grid">
+        <div class="card">
+          <img src="https://thedispatch.com/wp-content/uploads/2025/10/GettyImages-1993770587.jpg?w=1024" alt="News Image">
+          <div class="card-body">
+            <h3>COVID Vaccine Access, Explained - The Dispatch</h3>
+            <p>What federal and state changes mean for getting a COVID shot....</p>
+            <small>Source: Thedispatch.com</small>
+            <a href="https://thedispatch.com/article/how-to-get-covid-vaccine-explained/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2227001727.jpg?c=16x9&q=w_800,c_fill" alt="News Image">
+          <div class="card-body">
+            <h3>Changes to ‘black box’ warning on hormone therapy for menopause symptoms expected soon, FDA chief says - CNN</h3>
+            <p>The US Food and Drug Administration plans to make changes soon to the lengthy black...</p>
+            <small>Source: CNN</small>
+            <a href="https://www.cnn.com/2025/10/02/health/menopause-hrt-warning-change-makary" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://static.toiimg.com/photo/124274811.cms" alt="News Image">
+          <div class="card-body">
+            <h3>About 80% of heart disease is preventable: US doctor recommends 5 daily habits to prevent the risk of heart attack - Times of India</h3>
+            <p>Heart disease continues to be one of the leading causes of death globally, but here’s...</p>
+            <small>Source: The Times of India</small>
+            <a href="https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/about-80-of-heart-disease-is-preventable-us-doctor-recommends-5-daily-habits-to-prevent-the-risk-of-heart-attack/photostory/124274742.cms" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.cnet.com/a/img/resize/671c92783ac482e203a80906e67841c2a6404d3f/hub/2021/02/18/fcdb73e7-7121-484a-a79d-9c3021d1dac3/pxl-20210218-183232505-portrait-1.jpg?auto=webp&fit=crop&height=675&width=1200" alt="News Image">
+          <div class="card-body">
+            <h3>Toilet Time With Your Phone Could Give You a Real Pain in the Butt - CNET</h3>
+            <p>Plus, it's gross. Don't linger on the can, if you can, man....</p>
+            <small>Source: CNET</small>
+            <a href="https://www.cnet.com/tech/mobile/toilet-time-with-your-phone-could-give-you-a-real-pain-in-the-butt/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.oregonlive.com/resizer/v2/CJHUDOUDIFD4FN7UTALTWI33AA.JPG?auth=9ead885a1100f43a833f41b3e43456919652f0ce2332c9df25880ef9ae91e08b&width=1280&smart=true&quality=90" alt="News Image">
+          <div class="card-body">
+            <h3>Dear Doctor: How much protection does a COVID vaccine give me after about 8 months? - OregonLive.com</h3>
+            <p>Most people can go a year between vaccinations, but some "at risk" groups should get...</p>
+            <small>Source: OregonLive</small>
+            <a href="https://www.oregonlive.com/advice/2025/10/dear-doctor-how-much-protection-does-a-covid-vaccine-give-me-after-about-8-months.html" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2025/10/01/USAT/86457762007-screenshot-20251001-at-115407-am.png?crop=987,556,x0,y42&width=987&height=556&format=pjpg&auto=webp" alt="News Image">
+          <div class="card-body">
+            <h3>New vaccination maps reveal outbreak risks. Is your county protected? - USA Today</h3>
+            <p>New data shows widespread erosion in vaccination coverage in over 75% of U.S. counties, leaving...</p>
+            <small>Source: USA Today</small>
+            <a href="https://www.usatoday.com/story/news/investigations/2025/10/02/vaccination-rates-drop-maps-outbreak-risks/86224099007/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://gizmodo.com/app/uploads/2025/10/mamba-snake-1200x675.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Why Getting Bit by a Mamba Sucks Extra Bad - Gizmodo</h3>
+            <p>Researchers discovered that the venoms of three of four mamba species deliver a second nasty...</p>
+            <small>Source: Gizmodo.com</small>
+            <a href="https://gizmodo.com/why-getting-bit-by-a-mamba-sucks-extra-bad-2000666473" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://media.nature.com/lw1200/magazine-assets/d41586-025-03179-1/d41586-025-03179-1_51502942.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Exclusive: ex-CDC director talks about why she was fired - Nature</h3>
+            <p>“I would never do that, as a scientist,” Susan Monarez says of being asked to...</p>
+            <small>Source: Nature.com</small>
+            <a href="https://www.nature.com/articles/d41586-025-03179-1" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://img.huffingtonpost.com/asset/68d1b07c140000b1b85c5b07.jpeg?ops=500_281%2Cscalefit_1200_630" alt="News Image">
+          <div class="card-body">
+            <h3>Is Cane Sugar Actually Healthier Than High-Fructose Corn Syrup? - HuffPost</h3>
+            <p>We've been told that one is far better than the other, and most of us...</p>
+            <small>Source: HuffPost</small>
+            <a href="https://www.huffpost.com/entry/is-cane-sugar-healthier-than-high-fructose-corn-syrup_l_68cc1c8fe4b0aa8d99fe99fc" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div><h2>SCIENCE</h2><div class="grid">
+        <div class="card">
+          <img src="https://i.abcnewsfe.com/a/5de2c203-de20-4ec3-8850-172aa06055af/wirestory_b9df6568efee22c02b722a87377d30db_16x9.jpg?w=1600" alt="News Image">
+          <div class="card-body">
+            <h3>Interstellar comet swinging past Mars as a fleet of spacecraft looks on - ABC News - Breaking News, Latest News and Videos</h3>
+            <p>A comet from another star system is swinging by Mars as a fleet of spacecraft...</p>
+            <small>Source: ABC News</small>
+            <a href="https://abcnews.go.com/Technology/wireStory/interstellar-comet-swinging-past-mars-fleet-spacecraft-126151147" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://assets3.cbsnewsstatic.com/hub/i/r/2025/10/02/5cf07a01-151f-4f56-ade9-9e1a0fd38b76/thumbnail/1200x630/d32fe3852665d1c27618b249aeab0ea3/planet-558868718-1215118950660703-1210797856896397688-n.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Mysterious "rogue planet" spotted gobbling 6 billion tons of gas and dust a second - CBS News</h3>
+            <p>ESO's Very Large Telescope has observed a rogue planet and revealed that it is eating...</p>
+            <small>Source: CBS News</small>
+            <a href="https://www.cbsnews.com/news/mysterious-rogue-planet-spotted-gobbling-6-billion-tons-of-gas-and-dust-a-second/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.rudebaguette.com/wp-content/uploads/2025/09/einsteins-theory-shatters-reality-new-wormhole-discovery-reveals-mind-blowing-secrets-that-change-everything-you-know.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>“Physicists Stunned By Strange Signal”: Brief Gravitational Wave May Have Exposed A Collapsing Wormhole And Shaken Einstein’s Space-Time Foundations - Rude Baguette</h3>
+            <p>In May 2019, a peculiar gravitational signal was detected by the LIGO and Virgo observatories....</p>
+            <small>Source: Rudebaguette.com</small>
+            <a href="https://www.rudebaguette.com/en/2025/10/physicists-stunned-by-strange-signal-brief-gravitational-wave-may-have-exposed-a-collapsing-wormhole-and-shaken-einsteins-space-time-foundations/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.404media.co/content/images/2025/10/Earth-DSCOVR-20150706-IFV.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Earth Is Getting Darker, Literally, and Scientists Are Trying To Find Out Why - 404 Media</h3>
+            <p>For decades, scientists assumed that symmetry between the reflectivity of Earth’s hemispheres was a “fundamental...</p>
+            <small>Source: 404media.co</small>
+            <a href="https://www.404media.co/earth-is-getting-darker-literally-and-scientists-are-trying-to-find-out-why/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://futurism.com/wp-content/uploads/2025/10/scientists-detect-shifting-inside-earth.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Scientists Say They Detected Something Huge Shifting Inside the Earth - Futurism</h3>
+            <p>A team of geophysicists say that an enormous mass shifted deep beneath the Earth's surface...</p>
+            <small>Source: Futurism</small>
+            <a href="https://futurism.com/science-energy/scientists-detect-shifting-inside-earth" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://indiandefencereview.com/wp-content/uploads/2025/10/the-fossil-where-the-spores-were-found.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>296-Million-Year-Old Fossil Found in Brazil Reveals Plant Spores Hidden Since Before Dinosaurs Walked the Earth - Indian Defence Review</h3>
+            <p>An international team of scientists has uncovered exceptionally preserved plant spores inside a 250-million-year-old fossil...</p>
+            <small>Source: Indiandefencereview.com</small>
+            <a href="https://indiandefencereview.com/fossil-plant-spores-before-dinosaurs/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.goodnewsnetwork.org/wp-content/uploads/2025/10/From-left-to-right-NASA-astronauts-Victor-Glover-and-Reid-Weissman-CSA-astronaut-Jeremy-Hansen-and-NASAs-Christina-Coch-e1759403765799.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>NASA’s Artemis 2 Astronauts Say They’re Fully Ready for Historic Flight to the Moon - Good News Network</h3>
+            <p>The flight will also mark the farthest trip by humans into deep space, and will...</p>
+            <small>Source: Good News Network</small>
+            <a href="https://www.goodnewsnetwork.org/nasas-artemis-2-astronauts-say-theyre-fully-ready-for-historic-flight-to-the-moon/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://spacenews.com/wp-content/uploads/2025/01/NG1-Liftoff-Horizontal.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Preparations on track for second New Glenn launch - SpaceNews</h3>
+            <p>Preparations for the second launch of Blue Origin’s New Glenn rocket, carrying a NASA Mars...</p>
+            <small>Source: SpaceNews</small>
+            <a href="http://spacenews.com/preparations-on-track-for-second-new-glenn-launch/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://watchers.news/wp-content/uploads/2025/10/asteroid-2025-tf-flyby-over-antarctica-on-october-1-2025-f.webp" alt="News Image">
+          <div class="card-body">
+            <h3>Asteroid 2025 TF flew just 420 km (260 miles) above Antarctica, second-closest flyby on record - The Watchers - Watching the world evolve and transform</h3>
+            <p>A newly-discovered asteroid designated 2025 TF made an extremely close approach to Earth at 00:49...</p>
+            <small>Source: Watchers.news</small>
+            <a href="https://watchers.news/2025/10/02/asteroid-2025-tf-flew-just-420-km-260-miles-above-antarctica-second-closest-flyby-on-record/" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div><h2>SPORTS</h2><div class="grid">
+        <div class="card">
+          <img src="https://platform.prideofdetroit.com/wp-content/uploads/sites/127/chorus/uploads/chorus_asset/file/25920324/2179893913.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C78.487012086318&w=1200" alt="News Image">
+          <div class="card-body">
+            <h3>Lions, Bengals injury report: Good news for Lions cornerbacks - Pride Of Detroit</h3>
+            <p>The Detroit Lions released their Week 5 Thursday injury report ahead of their matchup with...</p>
+            <small>Source: Prideofdetroit.com</small>
+            <a href="https://www.prideofdetroit.com/detroit-lions-injury-report/144096/lions-bengals-injury-report-good-news-for-lions-cornerbacks" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://nbcsports.brightspotcdn.com/dims4/default/b44edbe/2147483647/strip/true/crop/4333x2437+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F71%2F4b%2F50c894c24067b5c4f3e8e4915616%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2233873525" alt="News Image">
+          <div class="card-body">
+            <h3>Eagles manage to keep private any potential personal issues between A.J. Brown, Jalen Hurts - NBC Sports</h3>
+            <p>On the field, the Eagles have mastered the tush push....</p>
+            <small>Source: NBCSports.com</small>
+            <a href="https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-manage-to-keep-private-any-potential-personal-issues-between-a-j-brown-jalen-hurts" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://via.placeholder.com/300x180?text=No+Image" alt="News Image">
+          <div class="card-body">
+            <h3>Cubs Lineup (WC Game 3): Cubs vs Padres Elimination Time - Bleacher Nation</h3>
+            <p>Want to access this website or page?
+Ask for permission...</p>
+            <small>Source: bleachernation.com</small>
+            <a href="https://www.bleachernation.com/cubs/2025/10/02/cubs-lineup-10225/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://www.cleveland.com/resizer/v2/WBKKVPP6XNGQZG476NS35TEKDU.JPG?auth=5791b3389691050b0a4e1b96bb876717c553db8e36ea0ac1b351eb05bd406566&width=1280&smart=true&quality=90" alt="News Image">
+          <div class="card-body">
+            <h3>Shedeur Sanders mouths silent answers about Joe Flacco being named the backup instead of him - Cleveland.com</h3>
+            <p>Shedeur Sanders mouthed silents answers about not being named the backup....</p>
+            <small>Source: cleveland.com</small>
+            <a href="https://www.cleveland.com/browns/2025/10/sheduers-sanders-mouths-silent-answers-about-joe-flacco-being-named-the-backup-instead-of-him.html" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://platform.bleedinggreennation.com/wp-content/uploads/sites/36/2025/10/imagn-27194271.jpg?quality=90&strip=all&crop=0%2C10.72917602865%2C100%2C78.541647942699&w=1200" alt="News Image">
+          <div class="card-body">
+            <h3>NFL Week 5 Game Picks - Bleeding Green Nation</h3>
+            <p>﻿﻿﻿﻿﻿Predicting the winners of this week’s football matchups....</p>
+            <small>Source: Bleeding Green Nation</small>
+            <a href="https://www.bleedinggreennation.com/general/160160/nfl-week-5-game-picks" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://static.www.nfl.com/image/upload/t_editorial_landscape_12_desktop/league/xa3ipwci0sr4gyxttp3q" alt="News Image">
+          <div class="card-body">
+            <h3>NFL picks for every Week 5 game: 49ers vs. Rams TNF prediction unanimous - NFL.com</h3>
+            <p>Who takes tonight's NFC West showdown between the 49ers and Rams? Can Dillon Gabriel guide...</p>
+            <small>Source: NFL News</small>
+            <a href="https://www.nfl.com/news/nfl-picks-week-5-2025-nfl-season" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-10/251002-Caitlin-Clark-ew-117p-4c2d24.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Caitlin Clark says the WNBA commissioner hasn't reached out since their private chat became public - NBC News</h3>
+            <p>Caitlin Clark said Thursday that WNBA Commissioner Cathy Engelbert hasn't reached out to her in...</p>
+            <small>Source: NBC News</small>
+            <a href="https://www.nbcnews.com/sports/wnba/caitlin-clark-napheesa-collier-cathy-engelbert-rcna235231" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://platform.batterypower.com/wp-content/uploads/sites/22/2025/10/gettyimages-2224878996.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200" alt="News Image">
+          <div class="card-body">
+            <h3>Let’s try to figure out who the next manager of the Atlanta Braves will be - Battery Power</h3>
+            <p>The time for speculation as to who will replace Brian Snitker is here and now....</p>
+            <small>Source: Batterypower.com</small>
+            <a href="https://www.batterypower.com/atlanta-braves-player-analysis/120859/next-braves-manager-david-ross-mark-derosa-bud-black-fredi-gonzalez-walt-weiss" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/kxfpqjyrtamfv5fk5nat.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Penguins Trim Training Camp Roster - NHL.com</h3>
+            <p>The Pittsburgh Penguins have reduced their training camp roster, it was announced today by President...</p>
+            <small>Source: NHL News</small>
+            <a href="https://www.nhl.com/penguins/news/penguins-trim-training-camp-roster-x2884" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div><h2>TECHNOLOGY</h2><div class="grid">
+        <div class="card">
+          <img src="https://mp1st.com/wp-content/uploads/2025/09/ktrpics.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>Report: Development Screenshots From Cancelled Star Wars: KOTOR Remake by Aspyr Surfaces - MP1st</h3>
+            <p>Early in-game development photos reveal weapons, props, and a third-person prototype for the cancelled version...</p>
+            <small>Source: http://mp1st.com/category/news</small>
+            <a href="https://mp1st.com/news/report-development-screenshots-from-cancelled-star-wars-kotor-remake-by-aspyr-surfaces" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://images.ctfassets.net/rporu91m20dc/6jF7DI7zI1mVSFCtyGaiJQ/35dc0452311d784b12b9c17e34e20af7/LHERO_BS.jpg?fit=fill&w=1200&h=600" alt="News Image">
+          <div class="card-body">
+            <h3>Inside the Vault – Burning Springs Public Test Server Release Notes - Bethesda.net</h3>
+            <p>Burning Springs introduces the largest map expansion to Fallout 76 yet and it’s available for...</p>
+            <small>Source: Bethesda.net</small>
+            <a href="https://bethesda.net/en/article/2nqh2JMnLeJnjpxwUUi5n6/inside-the-vault-burning-springs-public-test-server-release-notes" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://techcrunch.com/wp-content/uploads/2025/10/google-jules.jpg?resize=1200,800" alt="News Image">
+          <div class="card-body">
+            <h3>Google’s Jules enters developers’ toolchains as AI coding agent competition heats up - TechCrunch</h3>
+            <p>Jules is already being used by developers to complete code after experimenting on vibe-coding platforms....</p>
+            <small>Source: TechCrunch</small>
+            <a href="https://techcrunch.com/2025/10/02/googles-jules-enters-developers-toolchains-as-ai-coding-agent-competition-heats-up/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2025/09/Apple-Watch-SE-3-Series-11-Ultra-3-stack.webp?resize=1200%2C628&quality=82&strip=all&ssl=1" alt="News Image">
+          <div class="card-body">
+            <h3>Apple Watch can lose these training wheels thanks to stellar battery life - 9to5Mac</h3>
+            <p>Apple Watch battery life is better than ever. Apple Watch Ultra 3 measures battery life...</p>
+            <small>Source: 9to5Mac</small>
+            <a href="https://9to5mac.com/2025/10/02/apple-watch-can-lose-these-training-wheels-thanks-to-stellar-battery-life/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/amazon_addtodelivery.jpg?quality=90&strip=all&crop=0%2C10.747807628681%2C100%2C78.504384742637&w=1200" alt="News Image">
+          <div class="card-body">
+            <h3>Amazon now lets Prime members add items to completed orders - The Verge</h3>
+            <p>Amazon’s new Add to Delivery feature lets US Prime members tack items onto existing undelivered...</p>
+            <small>Source: The Verge</small>
+            <a href="https://www.theverge.com/news/790703/amazon-prime-add-to-deliver-mobile-app-online-store" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://xboxwire.thesourcemediaassets.com/sites/2/2025/09/BO7-MULTIPLAYER-OVERVIEW-TOUT-06ba6dee146471f87fb3.jpg" alt="News Image">
+          <div class="card-body">
+            <h3>How to Start Playing the Call of Duty: Black Ops 7 Multiplayer and Zombies Beta - Xbox Wire</h3>
+            <p>After an exciting week of news and reveals from Call of Duty: Next, we’re capping...</p>
+            <small>Source: Xbox.com</small>
+            <a href="https://news.xbox.com/en-us/2025/10/02/how-to-start-playing-call-of-duty-black-ops-7-open-beta/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2181313521.jpg?w=1024" alt="News Image">
+          <div class="card-body">
+            <h3>Perplexity’s Comet AI browser now free; Max users get new ‘background assistant’ - TechCrunch</h3>
+            <p>AI search startup Perplexity is making its new Comet browser available to everyone in the...</p>
+            <small>Source: TechCrunch</small>
+            <a href="https://techcrunch.com/2025/10/02/perplexitys-comet-ai-browser-now-free-max-users-get-new-background-assistant/" target="_blank">Read More</a>
+          </div>
+        </div>
+      
+        <div class="card">
+          <img src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/fire-tv-stick.jpeg?quality=90&strip=all&crop=0%2C3.4926328102429%2C100%2C93.014734379514&w=1200" alt="News Image">
+          <div class="card-body">
+            <h3>Amazon’s Vega OS launch trick: cloud-streamed apps - The Verge</h3>
+            <p>Amazon will stream Android apps from the cloud to ensure that its new Vega-based Fire...</p>
+            <small>Source: The Verge</small>
+            <a href="https://www.theverge.com/column/790144/amazons-vega-os-streaming-cloud" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+  </body>
+  </html>
+  

@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="aZHJjxWtgW1FO33Kv0mz">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="w6qEc1OCD-WsedhsfA1d-1" target="w6qEc1OCD-WsedhsfA1d-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-1" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;&lt;span&gt;Project Overview&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-2" value="AI Featured News WebApp" style="text;align=center;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeWidth=5;fontSize=18;labelBackgroundColor=none;glass=0;shadow=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="245" y="10" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w6qEc1OCD-WsedhsfA1d-4" target="w6qEc1OCD-WsedhsfA1d-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-4" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;Requirements&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="160" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w6qEc1OCD-WsedhsfA1d-5" target="w6qEc1OCD-WsedhsfA1d-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-5" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;Research &amp;amp; Data Collection&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="240" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w6qEc1OCD-WsedhsfA1d-6" target="w6qEc1OCD-WsedhsfA1d-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-6" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;Data Pipeline &amp;amp; AI Features&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="480" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w6qEc1OCD-WsedhsfA1d-7" target="w6qEc1OCD-WsedhsfA1d-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-7" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;UI/UX Design&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="400" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w6qEc1OCD-WsedhsfA1d-8" target="w6qEc1OCD-WsedhsfA1d-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-8" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;System Architecture &amp;amp; Tech Stack&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="297" y="320" width="256" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w6qEc1OCD-WsedhsfA1d-12" target="w6qEc1OCD-WsedhsfA1d-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-12" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;Core Development&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="640" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w6qEc1OCD-WsedhsfA1d-13" target="w6qEc1OCD-WsedhsfA1d-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-13" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;API &amp;amp; AI Integration&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="560" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w6qEc1OCD-WsedhsfA1d-14" target="w6qEc1OCD-WsedhsfA1d-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-14" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;Testing&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="720" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w6qEc1OCD-WsedhsfA1d-15" target="w6qEc1OCD-WsedhsfA1d-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-15" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;Security &amp;amp; Compliance&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="800" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w6qEc1OCD-WsedhsfA1d-16" target="w6qEc1OCD-WsedhsfA1d-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-16" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;Deployment&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="299.5" y="880" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="w6qEc1OCD-WsedhsfA1d-17" target="w6qEc1OCD-WsedhsfA1d-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-17" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;Analytics &amp;amp; Monitoring&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="960" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-19" value="&lt;p style=&quot;margin: 0in;&quot;&gt;&lt;font face=&quot;Calibri Light&quot;&gt;Documentation&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;fontStyle=0;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1040" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-37" value="(Define vision, objectives, and target audience for the application)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="82.5" width="277" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-38" value="(Capture user needs, workflows, and functional expectations clearly)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="162.5" width="277" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-39" value="(Identify data sources, news APIs, and competitor feature analysis)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="242.5" width="277" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-40" value="(Outline system components, frameworks, databases, and chosen technologies)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560.5" y="322.5" width="289.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-41" value="(Create wireframes, prototypes, and user-friendly interfaces with accessibility focus)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560.5" y="400" width="299.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-42" value="(Build workflows for summarization, classification, and sentiment analysis)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560.5" y="477.5" width="277" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-43" value="(Connect authentication, news feeds, and NLP/ML models seamlessly)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="560" width="277" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-44" value="(Implement backend, frontend, and AI services with modular code structure)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="637.5" width="277" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-45" value="(Perform unit, integration, performance, and AI accuracy validation tests)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="720" width="277" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-46" value="(Ensure data privacy, secure authentication, and regulatory compliance adherence)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="797.5" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-47" value="(Set up CI/CD pipelines and deploy app to cloud infrastructure)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="880" width="277" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-48" value="(Track usage, performance metrics, and system health continuously)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="962.5" width="277" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w6qEc1OCD-WsedhsfA1d-49" value="(Provide setup guides, API docs, and developer onboarding resources)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1040" width="277" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
